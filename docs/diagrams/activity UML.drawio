@@ -1,0 +1,240 @@
+<mxfile host="app.diagrams.net" modified="2023-10-27T20:48:33.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="G3GXeQwU9fMwszGeeCxi" version="22.0.8" type="device">
+  <diagram name="Page-1" id="AiS-1wuc9YG_9kM5Dnrh">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6ssV9LNbby-O3qd066M5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-1" target="6ssV9LNbby-O3qd066M5-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-3" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="90" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-7" target="QKYt96TEJ9hZ9y1-szZa-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="120" as="sourcePoint" />
+            <mxPoint x="360" y="111.875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-8" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-3" target="QKYt96TEJ9hZ9y1-szZa-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="120" as="sourcePoint" />
+            <mxPoint x="360" y="111.875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-7" value="User has no cards to study" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-10" target="QKYt96TEJ9hZ9y1-szZa-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-10" value="create a flash card object" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="410" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-11" target="QKYt96TEJ9hZ9y1-szZa-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-11" value="&lt;ol&gt;&lt;li&gt;set the right_counter for this one card to 0&lt;/li&gt;&lt;li style=&quot;&quot;&gt;tell the user to make a question&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;set flash card question&lt;/li&gt;&lt;li style=&quot;&quot;&gt;tell the user to give the answer to that question&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;set flash card answer&lt;/li&gt;&lt;li style=&quot;&quot;&gt;add flash card to an vector of flash cards.&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="591" y="40" width="309" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-13" target="6ssV9LNbby-O3qd066M5-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-13" value="&lt;ol&gt;&lt;li&gt;ask the user if they would like to create a new flash card, study flash cards or exit&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="330" y="260" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-15" target="QKYt96TEJ9hZ9y1-szZa-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-19" value="wants to make a new card" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QKYt96TEJ9hZ9y1-szZa-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.7379" y="-1" relative="1" as="geometry">
+            <mxPoint x="69" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-15" target="QKYt96TEJ9hZ9y1-szZa-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-22" value="wants to exit&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QKYt96TEJ9hZ9y1-szZa-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-15" target="QKYt96TEJ9hZ9y1-szZa-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-25" value="They want to study&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QKYt96TEJ9hZ9y1-szZa-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.5333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-15" value="if&lt;br&gt;else if&amp;nbsp;&lt;br&gt;else&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-20" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="320" y="550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-23" target="6ssV9LNbby-O3qd066M5-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-23" value="&lt;ol&gt;&lt;li&gt;Check the size of flash cards&lt;/li&gt;&lt;li&gt;get a random int number between (0 to (flash card size -1)&lt;/li&gt;&lt;li&gt;get a random number as array index&amp;nbsp;&lt;/li&gt;&lt;li&gt;show the question at array index&lt;/li&gt;&lt;li&gt;have the user click when ready to view answer&lt;/li&gt;&lt;li&gt;ask the user if they got it right or wrong&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="380" y="520" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-26" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-28" target="QKYt96TEJ9hZ9y1-szZa-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-28" value="add one to right_counter of card" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="655.5" y="790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.575;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-26" target="QKYt96TEJ9hZ9y1-szZa-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-30" value="If user gets the answer right&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QKYt96TEJ9hZ9y1-szZa-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.3643" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-26" target="QKYt96TEJ9hZ9y1-szZa-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188.48000000000002" y="801.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-33" value="If the user gets the answer wrong" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QKYt96TEJ9hZ9y1-szZa-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.4131" y="-1" relative="1" as="geometry">
+            <mxPoint x="-48" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="850" />
+              <mxPoint x="200" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-40" value="If right_counter is 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QKYt96TEJ9hZ9y1-szZa-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.3615" y="-2" relative="1" as="geometry">
+            <mxPoint x="-72" y="-112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-34" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-35" value="subtract one from cards right_counter" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-38" value="If right_counter more then 0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.704;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-34" target="QKYt96TEJ9hZ9y1-szZa-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-41" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.003;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-43" target="QKYt96TEJ9hZ9y1-szZa-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="1010" />
+              <mxPoint x="870" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-43" value="delete the card" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.413;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-41" target="QKYt96TEJ9hZ9y1-szZa-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QKYt96TEJ9hZ9y1-szZa-45" value="If right_counter is 5&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QKYt96TEJ9hZ9y1-szZa-44" vertex="1" connectable="0">
+          <mxGeometry x="0.2486" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6ssV9LNbby-O3qd066M5-1" target="QKYt96TEJ9hZ9y1-szZa-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-4" value="If they pick a correct choice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6ssV9LNbby-O3qd066M5-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.2976" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6ssV9LNbby-O3qd066M5-1" target="QKYt96TEJ9hZ9y1-szZa-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-7" value="if they dont pick a correct choice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6ssV9LNbby-O3qd066M5-6" vertex="1" connectable="0">
+          <mxGeometry x="0.1373" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-1" value="while choice not correct" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="370" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6ssV9LNbby-O3qd066M5-8" target="QKYt96TEJ9hZ9y1-szZa-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="730" />
+              <mxPoint x="490" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-12" value="if they answer correctly with a &quot;y&quot; or &quot;n&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6ssV9LNbby-O3qd066M5-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.1622" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-8" value="while loop" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="650" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.014;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6ssV9LNbby-O3qd066M5-8" target="QKYt96TEJ9hZ9y1-szZa-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-13" value="they answered with something else&amp;nbsp; go back to step 6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6ssV9LNbby-O3qd066M5-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0509" y="2" relative="1" as="geometry">
+            <mxPoint x="52" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6ssV9LNbby-O3qd066M5-14" target="QKYt96TEJ9hZ9y1-szZa-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-14" value="&lt;ol&gt;&lt;li&gt;open file called flashcards.txt&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6ssV9LNbby-O3qd066M5-19" target="QKYt96TEJ9hZ9y1-szZa-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="270" />
+              <mxPoint x="350" y="270" />
+              <mxPoint x="350" y="272" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-19" value="&lt;ol&gt;&lt;li&gt;takes questions and answers out of file and adds them to the flash cards for studying.&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="180" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6ssV9LNbby-O3qd066M5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.076;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QKYt96TEJ9hZ9y1-szZa-3" target="6ssV9LNbby-O3qd066M5-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
